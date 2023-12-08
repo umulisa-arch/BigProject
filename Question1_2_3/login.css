@@ -1,0 +1,39 @@
+form{
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  form{
+    padding-top: 50px;
+    width: 400px;
+    height: 500px;
+    /* border: 2px solid goldenrod; */
+    border-top: 3px solid rgb(25, 174, 25);
+    justify-content: center;
+    padding-left: 150px;
+    background-color: rgb(144, 192, 200);
+    border-radius: 15px;
+    box-shadow: 5px 5px rgb(93, 87, 87);
+  }
+  
+  input{
+    padding: 8px;
+    width: 220px;
+  }
+  button{
+    padding: 10px 60px;
+    background-color: rgb(25, 174, 25);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button:hover{
+    background-color: rgb(32, 138, 108);
+  }
+ 
