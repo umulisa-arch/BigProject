@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Auto Disappearing Alert</title>
+  <style>
+    .alert {
+      display: none;
+      position: fixed;
+      top: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 15px;
+      background-color: #54a008;
+      color: white;
+      border-radius: 5px;
+      z-index: 999;
+    }
+    button{
+      cursor: pointer;
+      padding: 15px;
+      border-radius: 5px;
+      background-color: rgb(225, 207, 207);
+    }
+    body{
+      margin: 50px;
+    }
+  </style>
+</head>
+<body>
+  Click here to submit
+  <button onclick="showAlert()"><b>Submit</b></button>
+
+  <div class="alert" id="myAlert">
+   Data submitted successfuly
+  </div>
+
+  <script>
+    function showAlert() {
+      var alertBox = document.getElementById("myAlert");
+      alertBox.style.display = "block";
+
+      setTimeout(function(){
+        alertBox.style.display = "none";
+      }, 3000);
+    }
+  </script>
+</body>
+</html>
