@@ -46,14 +46,14 @@ h1 {
   align-items: center;
   justify-content: center;
 }
-.weather-input .separator::before{
+/* .weather-input .separator::before{
   content: "or";
   color: #6C757D;
   font-size: 1.18rem;
   padding: 0 15px;
   margin-top: -4px;
   background: #E3F2FD;
-}
+} */
 .weather-input button {
   width: 100%;
   padding: 10px 0;

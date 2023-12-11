@@ -1,0 +1,225 @@
+
+body{
+        background-color: #3D77A0;
+    
+}
+.navigation{
+        display: inline;
+        align-items: center;
+        justify-items: center;
+        color: white;
+        border: 2px solid black;
+        width: auto;
+        text-align: center;
+
+
+}
+a{
+    align-items: center;
+    color: white;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    width: 2000px;
+    height: 500px;
+
+    
+}
+#links{
+    /*text-align: center;*/
+        padding: 20px;
+        width: 1450px;
+        height: 50px;
+        border-radius: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(15, 15, 49); 
+        margin: 10px;
+      
+    }
+a{
+        text-decoration: none;
+    }
+   
+.link:visited {
+        color: rgb(59, 207, 14); /* Change color for visited links */
+      }
+a:hover{
+        background-color: #3D77A0;
+      }
+.logo{
+        width: 8rem;
+        height: 5rem;
+        border-radius: 50%;
+      }
+.container1{
+        margin-left: 20px;
+        margin-top: 200px;
+        display: flex;
+        justify-content: space-between;
+      }
+.homephoto{
+        width: 10rem;
+        height: 10rem;
+        border-radius: 50%;
+
+      }
+.socialmedia{
+        padding: 60px;
+        justify-content: space-between;
+      }
+.social1{
+        margin-top: 50px;
+        padding: 20px;
+      }
+      /*.social1:hover{
+background-color: rgb(21, 117, 85);
+      }*/
+      
+.certificate{
+        width: 80px;
+        height: 5px;
+        background-color: rgb(15, 15, 49);
+        border-radius: 30px;
+        margin-left: 20px;
+      }
+.certificate:hover{
+        background-color: #0b87df;
+  
+      }
+
+.phoneparagraph{
+        text-align: center;
+        margin-top: 100px;
+        background-color: rgb(15, 15, 49);
+        height: 40px;
+        align-items: center;
+        /* border-radius: 50px; */
+        padding: 20px;
+        padding-top: 50px;
+        color: white;
+        margin-bottom: -6px;
+        margin-left: -7px;
+        margin-right: -6px;
+}
+.mailcall{
+width: 300px;
+height: 200px;
+background-color: rgb(225, 197, 197);
+margin-left: 20px;
+border-radius: 10px;
+}
+.pmailcall{
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding-top: 55px;
+}
+.spanemail{
+        color: blue;
+}
+     
+.contact2{
+        width: 300px;
+        height: 500px;
+        background-color: rgb(225, 197, 197);
+        border-radius: 10px;
+}
+.Maincontact{
+        justify-content: space-around;
+        display: flex;
+        margin-top: 10rem;
+}
+form{
+        align-items: center;
+        padding-left: 20px;
+}
+input{
+        border-radius: 5px;
+        padding: 5px;
+}
+textarea{
+        border-radius: 5px;
+}
+.sendmessage{
+        color: white;
+        background-color: rgb(15, 15, 49);
+        border-radius: 5px;   
+        padding: 7px;
+        margin-left: 45px;
+        cursor: pointer;
+}
+.sendmessage:hover{
+        background-color: #0b87df;
+}
+.MainAbout{
+        display: flex;
+        justify-content: space-around;
+}
+.about1{
+        background-color: aliceblue;
+}
+.about2{
+        background-image: url(AgneI.jpg);
+        width: 800px;
+        height: 800px;
+}
+.mainservice{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 60px;
+}
+.h1service{
+        text-align: center;
+        margin-top: 100px; 
+        color: white;
+}
+hr{
+        width: 200px;
+       border: 1.5px solid white;
+}
+
+.mainp1{
+        display: flex;
+        padding-left: 30px;
+}
+.mainp2{
+        display: flex;
+        padding: 30px;
+}
+.mainp3{
+        display: flex;
+        padding-left: 30px;
+}
+.mainp4{
+        display: flex;
+        padding-left: 30px;
+}
+h1{
+        text-align: center;
+        
+}
+.h2{
+        text-align: center;
+        color: rgb(62, 65, 62);
+}
+.pr1{
+        padding-left: 50px;
+}
+.pr2{
+        padding-left: 50px;
+}
+.pr3{
+        padding-left: 50px;
+}
+.pr4{
+        padding-left: 50px;
+}
+.mainp5{
+        display: flex;
+        padding-left: 30px;
+
+}
+.pr5{
+        padding-left: 50px;
+}

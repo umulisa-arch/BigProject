@@ -24,11 +24,24 @@
     body{
       margin: 50px;
     }
+    input{
+      padding: 10px;
+    }
   </style>
 </head>
 <body>
-  Click here to submit
-  <button onclick="showAlert()"><b>Submit</b></button>
+  <h1>this is the popUp work</h1>
+  <form action="#" method="post">
+    <label for="Firstname">Firstname</label> <br>
+    <input type="text" placeholder="Firstname" required><br><br>
+    <label for="Firstname">Lastname</label><br>
+    <input type="text" placeholder="Lastname" required><br><br>
+    <label for="Firstname">Email</label><br>
+    <input type="email" placeholder="Email" required><br><br>
+    <button onclick="showAlert()"><b>Submit</b></button>
+  </form>
+
+  
 
   <div class="alert" id="myAlert">
    Data submitted successfuly
